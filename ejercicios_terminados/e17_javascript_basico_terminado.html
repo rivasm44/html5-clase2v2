@@ -2,19 +2,21 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>Texto a numero</title>
+        <title>Ejercicio</title>
         <script>
          /*Aquí todo el código en javaScript*/
-            var usuario={
-            nombre: prompt("Nombre: "),
-            apellidos: prompt("Apellidos: "),
-            edad: parseInt(prompt("Edad")),
-            presentarse: function(){
-                alert("Soy " + usuario.nombre + " " + usuario.apellidos +" y tengo " + usuario.edad +" años");
-                }
-            };
-
-            usuario.presentarse();
+            
+            var nombre = prompt("Escribe tu nombre");
+            var apellido = prompt("Escribe tu apellido");
+            var edad = prompt("Escribe tu edad");
+          var persona = new Object ();
+          persona.nombre = nombre;
+          persona.apellido = aoellido;
+          var imprime = function(a,b){
+          	alert("nombre: " + a + "apellido" + b);
+          };
+          	imprime(persona.nombre, persona.apellido);
+          	
         </script>
     </head>
     <body>
